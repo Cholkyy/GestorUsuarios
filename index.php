@@ -14,7 +14,7 @@ function registrarUsuario($nombre, $email, $password) {
         if ($usuario['email'] === $email) {
             return "Error: El correo ya está registrado.";
         }
-    }
+    }//qerwrg
 
     // Guardar usuario nuevo
     $nuevoUsuario = [
